@@ -31,10 +31,7 @@ $aModule = [
         \OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController::class => \Swinde\SwNaehrwerte\Controller\SwNaehrwerte::class,
     ],
     'controllers' => [
-        'module_internals_metadata' => \OxidCommunity\ModuleInternals\Controller\Admin\Metadata::class,
-        'module_internals_state'    => \OxidCommunity\ModuleInternals\Controller\Admin\State::class,
-        'module_internals_utils'    => \OxidCommunity\ModuleInternals\Controller\Admin\UtilsController::class,
-        'module_internals_utils'    => \OxidCommunity\ModuleInternals\Controller\Admin\UtilsController::class,
+        'swnaehrwerte'    => \Swinde\SwNaehrwerte\Controller\Admin\SwNaehrwerte::class,
     ],
     'templates'   => [
         'swnaehrwerte.tpl'    => 'swinde/swnaehrwerte/views/admin/tpl/swnaehrwerte.tpl',

@@ -1,0 +1,22 @@
+{
+  "name": "swinde/swnaehrwerte",
+  "description": "",
+  "type": "oxideshop-module",
+  "minimum-stability": "dev",
+  "keywords": ["oxid","modules"],
+  "homepage": "https://github.com/swinde/swnaehrwerte",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "swinde/swnaehrwerte"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Swinde\\SwNaehrwerte\\": "../../../source/modules/swinde/swnaehrwerte"
+    }
+  }
+}

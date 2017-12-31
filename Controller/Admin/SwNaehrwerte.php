@@ -6,8 +6,7 @@
 
 namespace Swinde\SwNaehrwerte\Controller\Admin;
 
-    use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
-    use OxidEsales\Eshop\Core\Module\Module as Module;
+
 
 /**
  * Class Naehrwerte

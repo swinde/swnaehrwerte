@@ -3,7 +3,7 @@
     <OXMENU id="NAVIGATION_ESHOPADMIN">
         <MAINMENU id="mxmanageprod">
             <SUBMENU id="mxarticles" cl="article" list="article_list">
-                <TAB id="tbclnaehrwerte" cl="naehrwerte_main" />
+                <TAB id="tbclnaehrwerte" cl="swnaehrwerte" />
             </SUBMENU>
         </MAINMENU>
     </OXMENU>

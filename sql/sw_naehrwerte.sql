@@ -1,0 +1,11 @@
+ALTER TABLE oxarticles ADD COLUMN SWCALORIC1 VARCHAR (32) NOT NULL COMMENT 'Feld für Brennwert (in kJ)',
+ ADD COLUMN SWCALORIC2 VARCHAR (32) NOT NULL COMMENT 'Feld für Brennwert (in Kcal)',
+ ADD COLUMN SWFAT1 VARCHAR (32) NOT NULL COMMENT 'Feld für Fettgehalt (in g)',
+ ADD COLUMN SWFAT2 VARCHAR (32) NOT NULL COMMENT 'Feld für ungesättigte Fettsaeuren (in g)',
+ ADD COLUMN SWFAT3 VARCHAR (32) NOT NULL COMMENT 'Feld für gesättigte Fettsaeuren (in g)',
+ ADD COLUMN SWCARB VARCHAR (32) NOT NULL COMMENT 'Feld für Kohlehydrate (in g)',
+ ADD COLUMN SWSUGAR VARCHAR (32) NOT NULL COMMENT 'Feld für Kohlehydrate Zucker (in g)',
+ ADD COLUMN SWPROTEIN VARCHAR (32) NOT NULL COMMENT 'Feld für Kohlehydrate Eiweiss (in g)',
+ ADD COLUMN SWSALT VARCHAR (32) NOT NULL COMMENT 'Feld für Salz (in g)',
+ ADD COLUMN SWABTROPFGEWICHT VARCHAR (32) NOT NULL COMMENT 'Gewicht ohne Aufguss (in g)',
+ ADD COLUMN SWINGREDIENTS LONGTEXT NOT NULL COMMENT 'Zutatenliste';

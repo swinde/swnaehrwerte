@@ -37,20 +37,19 @@
 <form name="transfer" id="transfer" action="[{$oViewConf->getSelfLink()}]" method="post">
     [{$oViewConf->getHiddenSid()}]
     <input type="hidden" name="oxid" value="[{ $oxid }]">
-    <input type="hidden" name="cl" value="naehrwerte_main">
+    <input type="hidden" name="cl" value="swnaehrwerte">
     <input type="hidden" name="editlanguage" value="[{ $editlanguage }]">
 </form>
 
 
 <form name="myedit" id="myedit" action="[{$oViewConf->getSelfLink()}]" method="post">
     [{ $oViewConf->getHiddenSid() }]
-    <input type="hidden" name="cl" value="naehrwerte_main">
+    <input type="hidden" name="cl" value="swnaehrwerte">
     <input type="hidden" name="fnc" value="">
     <input type="hidden" name="oxid" value="[{ $oxid }]">
     <input type="hidden" name="voxid" value="[{ $oxid }]">
     <input type="hidden" name="oxparentid" value="[{ $oxparentid }]">
     <input type="hidden" name="editval[article__oxid]" value="[{ $oxid }]">
-    <input type="hidden" name="editval[oxarticles__swingredients]" value="">
     <table cellspacing="0" cellpadding="0" border="0" style="width:100%;">
         <tr>
             <td valign="top" class="edittext" style="padding-left:10px;width:50%">

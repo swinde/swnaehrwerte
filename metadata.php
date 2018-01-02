@@ -28,7 +28,7 @@ $aModule = [
     'url'          => 'http://winde-ganzig.de/',
     'email'        => '',
     'extend'      => [
-        \OxidEsales\Eshop\Application\Controller\Admin\ArticleMain::class => \Swinde\SwNaehrwerte\Controller\SwNaehrwerte::class,
+        \OxidEsales\Eshop\Application\Controller\Admin\ArticleMain::class => \Swinde\SwNaehrwerte\Controller\Admin\SwNaehrwerte::class,
     ],
     'controllers' => [
         'swnaehrwerte'    => \Swinde\SwNaehrwerte\Controller\Admin\SwNaehrwerte::class,
